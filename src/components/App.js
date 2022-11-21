@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../styles/App.css';
 import Loader from './Loader';
 import PostList from './PostList';
-// import fetchPosts from '../api/fetchPosts';
+
 import PaginationButtonsList from './PaginationButtonsList';
 const App = () => {
     const [posts, setPosts] = useState([]);
